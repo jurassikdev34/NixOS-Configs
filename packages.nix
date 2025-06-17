@@ -3,6 +3,8 @@
 {
   environment.systemPackages = with pkgs; [
     fzf
+    vlc
+    qbittorrent
     pinentry
     gnomeExtensions.dash-to-dock
     gnupg
