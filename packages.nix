@@ -1,19 +1,16 @@
 # /etc/nixos/packages.nix
 { config, pkgs, ... }:
 {
+  nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
-    fzf
-    vlc
-    qbittorrent
     pinentry
-    gnomeExtensions.dash-to-dock
-    gnupg
-    zoxide
-    zsh
-    emacs 
-    git
-    alacritty
+    clevis
+    tpm2-tools
+    home-manager
     vim
+    gnupg
+    emacs 
+    alacritty
     wget
     firefox
   ];

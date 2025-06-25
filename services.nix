@@ -1,14 +1,10 @@
 # /etc/nixos/services.nix
 { config, pkgs, ... }:
 {
-  #  services.xserver.enable = true;
   services.xserver.displayManager.gdm.enable = true;
+  virtualisation.docker.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
-  services.emacs = {
-    enable = true;
-    package = pkgs.emacs;
-  };
-
+  systemd.oomd.enable = false;
   services.xserver.xkb.layout = "es";
 
   console.keyMap = "es";

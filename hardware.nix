@@ -3,5 +3,11 @@
 {
   imports =
     [ ./hardware-configuration.nix ];
+};
+
+
+
+
+
 }
 
