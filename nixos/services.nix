@@ -2,6 +2,7 @@
 { config, pkgs, ... }:
 {
   services.xserver.displayManager.gdm.enable = true;
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
   virtualisation.docker.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
   services.flatpak.enable = true;
