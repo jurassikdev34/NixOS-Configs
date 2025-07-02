@@ -3,16 +3,19 @@
 {
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
+    wl-clipboard
+    yazi
+    busybox
+    tree
     pinentry
+    fastfetch
     clevis
     tpm2-tools
     home-manager
-    vim
+    neovim
     gnupg
-    emacs 
     alacritty
     wget
     firefox
   ];
 }
-

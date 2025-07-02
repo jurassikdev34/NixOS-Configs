@@ -18,21 +18,21 @@ in
   home.packages = with pkgs; [
 	vlc
 	obsidian
-  	ffmpeg_6-full
-  	frei0r
-    wineWowPackages.stable
-  	gsettings-desktop-schemas
+  ffmpeg_6-full
+  frei0r
+	hugo
+	pass
+  wineWowPackages.stable
+  gsettings-desktop-schemas
 	zed-editor
-	fastfetch
 	thunderbird
 	prismlauncher
 	qbittorrent
   ];
 
   home.sessionVariables = {
-    EDITOR = "vim";
-    VISUAL = "vim";
+    EDITOR = "nvim";
+    VISUAL = "nvim";
   };
 
 }
-
