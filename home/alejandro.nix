@@ -28,6 +28,9 @@ in
 	thunderbird
 	prismlauncher
 	qbittorrent
+  kdePackages.kdenlive
+  obs-studio
+  audacity
   ];
 
   home.sessionVariables = {
