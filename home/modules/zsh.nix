@@ -53,7 +53,9 @@
 
       alias ls='ls -F --color=auto'
       alias l='ls -la --color=auto'
-      alias vi='vim'
+      alias vi='nvim'
+      alias vim='nvim'
+      alias v='nvim'
       alias clear-pacman='sudo rm /var/lib/pacman/db.lck'
       alias suck="cd ~/.suckless/dwm && vim config.h && sudo make clean install && cd ~"
 
@@ -64,9 +66,6 @@
       export QT_STYLE_OVERRIDE=gtk
       export QT_AUTO_SCREEN_SCALE_FACTOR=1
 
-      export GTK_THEME=Adwaita
-      export GTK2_RC_FILES=$HOME/.gtkrc-2.0
-      export GTK3_THEME=Adwaita
 
       [[ ! -f /etc/nixos/home/modules/dotfiles/.p10k.zsh ]] || source /etc/nixos/home/modules/dotfiles/.p10k.zsh
     '';
