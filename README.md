@@ -21,5 +21,10 @@ Cada archivo `.nix` representa un aspecto concreto del sistema, siguiendo el pri
 
 
 ```bash
+sudo rm -rf /etc/nixos/
+sudo ln -s ~/.nixos-config/nixos /etc/nixos
 sudo nixos-rebuild switch
+
+ln -s ~/.nixos-config/home-manager ~/.condig/home-manager
+stow .
 ```

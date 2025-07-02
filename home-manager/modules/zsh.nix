@@ -67,8 +67,7 @@
       export QT_AUTO_SCREEN_SCALE_FACTOR=1
 
 
-      [[ ! -f /etc/nixos/home/modules/dotfiles/.p10k.zsh ]] || source /etc/nixos/home/modules/dotfiles/.p10k.zsh
+      [[ ! -f ~/.config/home-manager/modules/dotfiles/.p10k.zsh ]] || source ~/.config/home-manager/modules/dotfiles/.p10k.zsh
     '';
   };
 }
-

@@ -2,6 +2,8 @@
 { config, pkgs, ... }:
 {
   time.timeZone = "Europe/Madrid";
+  services.xserver.xkb.layout = "es";
+  console.keyMap = "es";
   i18n.defaultLocale = "es_ES.UTF-8";
   i18n.extraLocaleSettings = {
     LC_ADDRESS = "es_ES.UTF-8";
