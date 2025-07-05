@@ -56,6 +56,8 @@
       alias vi='nvim'
       alias vim='nvim'
       alias v='nvim'
+      alias commit='git add . && git commit -a'
+      alias push='git add . && git commit -a && git push'
       alias clear-pacman='sudo rm /var/lib/pacman/db.lck'
       alias suck="cd ~/.suckless/dwm && vim config.h && sudo make clean install && cd ~"
 

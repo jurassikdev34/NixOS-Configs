@@ -1,6 +1,7 @@
 # /etc/nixos/gnome.nix
 { config, pkgs, ... }:
 {
+  services.xserver.desktopManager.gnome.enable = true;
   environment.gnome.excludePackages = (with pkgs; [
     decibels
     snapshot

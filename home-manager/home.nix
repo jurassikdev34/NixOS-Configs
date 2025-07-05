@@ -18,7 +18,22 @@ in
 
   home.packages = with pkgs; [
     vlc
+
+    waybar
+    pamixer
+    bluez
+    blueman
+    wofi
+    nemo
+    kitty
+    nwg-look
+    libsForQt5.qt5ct
+    qt6ct
     yazi
+    libsForQt5.qtstyleplugin-kvantum
+    kdePackages.qtstyleplugin-kvantum
+    swww
+
     obsidian
     ffmpeg_6-full
     frei0r

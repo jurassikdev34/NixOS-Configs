@@ -11,7 +11,7 @@
       ./services.nix
       ./users.nix
       ./packages.nix
-      ./gnome.nix
+      ./hyprland.nix
     ];
 
   system.stateVersion = "25.05"; # Como lo tenías
