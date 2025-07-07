@@ -7,11 +7,14 @@
     yazi
     gcc
     busybox
+    starship
     tree
+    eza
     pinentry
     fastfetch
     clevis
     tpm2-tools
+    neofetch
     home-manager
     neovim
     gnupg
