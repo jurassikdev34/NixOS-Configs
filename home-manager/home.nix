@@ -21,6 +21,7 @@ in
 
     waybar
     pamixer
+    brightnessctl
     bluez
     blueman
     wofi
@@ -35,6 +36,7 @@ in
     swww
 
     obsidian
+    nodejs_22
     ffmpeg_6-full
     frei0r
     hugo
