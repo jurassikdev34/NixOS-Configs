@@ -4,6 +4,7 @@
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
     wl-clipboard
+    gnome-disk-utility
     yazi
     gcc
     busybox

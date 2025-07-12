@@ -9,5 +9,7 @@
 
   users.users.alejandro.shell = pkgs.fish;
   users.users.alejandro.ignoreShellProgramCheck = true;
+  environment.variables.SHELL = "${pkgs.fish}/bin/fish";
+
 }
 
