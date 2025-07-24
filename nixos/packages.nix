@@ -7,6 +7,7 @@
     gnome-disk-utility
     yazi
     gcc
+    hplip
     busybox
     starship
     tree

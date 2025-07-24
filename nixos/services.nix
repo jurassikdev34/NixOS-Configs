@@ -7,6 +7,7 @@
   services.flatpak.enable = true;
   systemd.oomd.enable = false;
   services.printing.enable = true;
+  services.printing.drivers = [ pkgs.hplip ];
   services.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {

@@ -14,10 +14,22 @@ in
 
   imports = importsList;
 
+
   home.stateVersion = "25.05";
 
   home.packages = with pkgs; [
     vlc
+    fortune
+    pavucontrol
+    cowsay
+    monero-gui
+    protonvpn-gui
+    bat
+    gnome-keyring
+    krita
+    protonmail-bridge-gui
+    electrum
+    bisq2
 
     waybar
     pamixer
