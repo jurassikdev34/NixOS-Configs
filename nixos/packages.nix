@@ -4,6 +4,10 @@
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
     wl-clipboard
+    protonvpn-gui
+    wireguard-tools
+    openresolv
+    iptables   
     gnome-disk-utility
     yazi
     gcc
@@ -11,6 +15,8 @@
     busybox
     starship
     tree
+    hugo
+    pass
     eza
     pinentry
     fastfetch
@@ -24,4 +30,5 @@
     wget
     firefox
   ];
+    services.dbus.packages = with pkgs; [ protonvpn-gui ];  # para que el GUI funcione vía D-Bus
 }

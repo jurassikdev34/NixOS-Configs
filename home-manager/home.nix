@@ -19,42 +19,19 @@ in
 
   home.packages = with pkgs; [
     vlc
+    protonmail-desktop
     fortune
     pavucontrol
     cowsay
     monero-gui
-    protonvpn-gui
-    bat
     gnome-keyring
     krita
-    protonmail-bridge-gui
     electrum
-    bisq2
-
-    waybar
-    pamixer
-    brightnessctl
-    bluez
-    blueman
-    wofi
-    nemo
-    kitty
-    nwg-look
-    libsForQt5.qt5ct
-    qt6ct
-    yazi
-    libsForQt5.qtstyleplugin-kvantum
-    kdePackages.qtstyleplugin-kvantum
-    swww
-
     obsidian
     nodejs_22
     ffmpeg_6-full
     frei0r
-    hugo
-    pass
     wineWowPackages.stable
-    gsettings-desktop-schemas
     zed-editor
     thunderbird
     prismlauncher
