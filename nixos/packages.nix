@@ -3,6 +3,7 @@
 {
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
+    tmux
     wl-clipboard
     protonvpn-gui
     wireguard-tools
